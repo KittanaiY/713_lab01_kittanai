@@ -14,3 +14,9 @@ function summation(scores){
 
 let scores = [10,20,30];
 console.log(summation(scores));
+
+const multiply = (x,y) => {return x*y};
+console.log(multiply(2,3));
+module.exports = {
+    multiply
+};
